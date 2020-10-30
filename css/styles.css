@@ -355,6 +355,14 @@
     text-decoration: none;
 }
 
+.link{
+    text-decoration: none;
+    color: #8c709b;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! OBRAS SOCIALES !!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
