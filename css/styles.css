@@ -1,0 +1,734 @@
+/* !!!!!!!!!!!!!!!!!!!!! HERO !!!!!!!!!!!!!!!!!!!!!! */
+
+.hero{
+    background: url("../assets/hero.jpg");
+    background-attachment: fixed;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title{
+    font-family: 'Lemonada', sans-serif !important;
+    color: #fff;
+    font-size: 2.8em;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.2em;
+    width: 60%;
+    
+}
+
+.quote-author{
+    margin-left: 47%;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.hero-btn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #636363;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    /* color: #636363; */
+    border-radius: 6px;
+    margin-top: 80px;
+    height: 70px;
+    width: 200px;
+    border: none;
+    background-color: #fff;
+    opacity: 1;
+    /* padding: 50px 40px 50px 40px; */
+    /* line-height: 40px; */
+    transition: all .1s;
+}
+
+.hero-btn:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color:#a086ad; 
+}
+
+.hero-btn-link{
+    text-decoration: none;
+}
+
+.presentation{
+    margin: 50px 100px 80px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    grid-gap: 40px;
+}
+
+.presentation-txt{
+    display: grid;
+}
+
+.pres-title{
+    font-family: "Dancing Script", sans-serif;
+    font-size: 2.6em;
+    color: #8c709b;
+    text-align: center;
+    margin-right: 5px;
+    /* padding-bottom: .5em; */
+}
+
+.pres-text{
+    line-height: 1.4em;
+    font-size: 1.4em;
+    padding-top: 1.2em;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.welcome-btn-link{
+    justify-self: center;
+}
+
+.welcome-btn{
+    font-size: 1.2em;
+    margin-top: 50px;
+    justify-self: center;
+    /* height: 50px; */
+    padding: 10px 15px;
+    vertical-align: middle;
+}
+
+.presentation-img{
+    justify-self: center;
+}
+
+.presentation-img > img{
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.back-img{
+    width: 100%;
+}
+
+.parallax-img{
+    max-width: 100%;
+
+}
+
+.services{
+    padding: 50px 100px 100px 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 120px 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    /* margin-bottom: 20px; */
+    /* padding: 20px 30px;  */
+   
+}
+
+.services-title{
+    font-family: "Dancing Script", sans-serif;
+    font-size: 5em;
+    text-decoration: underline;
+    color: #9f85ac;
+    grid-column: 1 / -1;
+    align-self: center;
+    text-align: center;
+    /* margin-top: 30px; */
+    padding-bottom: 30px;
+}
+
+.service-item{
+    /* padding: 20px; */
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #9f85ac;
+    border-radius: 5px;
+    width: 90%;
+    padding: 20px;
+    transition: transform .3s;
+    margin-bottom: 20px;
+}
+
+.service-item:hover{
+    background-color: #f5f3f3;
+    cursor: pointer;
+    transform: scale(1.051);
+}
+
+.service-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-wrapper > p{
+    text-align: center;
+}
+
+.service-title{
+    text-align: center;
+    font-size: 1.5em;
+    /* border-top: 1px solid rgba(0,0,0,.3); */
+    padding-top: 1em;
+}
+
+.service-img-wrapper{
+    padding-bottom: 1em;
+    border-bottom: 2px solid #9f85ac;
+}
+
+.service-img{
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 8px;
+    position: relative;
+    bottom: 0;
+    transition: linear .2s;
+}
+
+
+.banner-img{
+    width: 100%;
+    height: auto;
+}
+
+.h1-title{
+    font-size: 60px;
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!! ABOUT PAGE !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+.about-wrapper{
+    /* display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    grid-gap: 50px; */
+    font-size: 1.4em;
+    line-height: 2.3em;
+}
+
+.txt-wrapper{
+    grid-column: 2 / -1;
+    margin-top: 50px;
+    line-height: 2.3em;
+}
+
+.about-me-title{
+    text-align: start;
+    padding-bottom: 30px;
+    font-size: 2.2em;
+   
+}
+
+.img-wrapper{
+    /* padding-left: 50px; */
+    float: left;
+    width: 350px;
+    height: auto;
+    margin: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    justify-self: center;
+    grid-row: 1/-1;
+    line-height: 1.5em;
+}
+
+.profile-img{
+    display: block;
+    max-width: 90%;
+    /* border-radius: 50%;
+    border: 3px solid #9f85ac; */
+    margin: 0 auto;
+}
+
+.matricula-nm{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: .9em;
+    font-weight: 400;
+}
+
+.about-me-txt{
+    padding-right: 2em;
+}
+
+.break{
+    display: block;
+    margin-top: 1.5em;
+}
+
+.list-br{
+    display: block;
+    margin-bottom: 0em;
+}
+
+.credenciales-title{
+    margin: 30px 0;
+    font-size: 2em;
+    grid-column: 1/-1;
+    text-align: left;
+}
+
+.credenciales-list{
+    padding-left: 3em;
+    grid-column: 1 / -1;
+    list-style-type: disc;
+    margin-bottom: 2em;
+    line-height: 1.5em;
+}
+
+.credenciales-list li{
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1.5em;
+}
+
+.credenciales-list > li:first-child{
+    padding-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!! SERVICIOS PAGE !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.main-wrapper{
+    margin: 2em 10em;
+    margin-bottom: 4em;
+}
+
+.servicios-title{
+    text-align: start;
+    padding: 1.5em 0 2.5em 0;
+    font-size: 3.2em;
+    grid-column: 1/-1;
+}
+
+.serv-txt-wrapper{
+    grid-column: 1/-1;
+    line-height: 2.2em;
+
+}
+
+.servicios-desc{
+    font-size: 1.4em;
+    /* line-height: 1.4rem; */
+}
+
+.lista-patologias{
+    list-style-type: disc;
+    padding-left: 2em;
+    font-size: 1.4em;
+}
+
+.services-page{
+    padding-top: 0;
+}
+
+.h2-services{
+    font-size: 3em;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! OBRAS SOCIALES !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.obras-sociales{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+}
+
+.obra-social{
+    justify-self: center;
+    align-self: center;
+}
+
+.obra-social img{
+    max-width: 100%;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! CONTACTO !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+.contacto-wrapper{
+    margin: 4em 10em;
+}
+
+/* .contact-title{
+    font-size: rem;
+    text-align: left;
+    padding: 2em 0 4em 0;
+} */
+
+.text{
+    font-size: 20px;
+    line-height: 30px !important;
+}
+
+.contacto-text{
+    padding-top: 1em;
+}
+
+.contacto-sociales{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 1.2fr;
+    margin-top: 3em;
+    justify-content: space-around;
+    padding: 2em 0;
+    /* background-color: red; */
+    border-top: 1px solid rgba(0,0,0,.2);
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.contacto-sociales a{
+    color: #8c709b;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contactame{
+    margin: 80px 0 40px 0;
+    font-size: 2.8em;
+    text-align: left;
+
+}
+
+.contact-form label{
+    margin-bottom: .3em;
+    font-size: 20px;
+}
+
+.contact-form input, .contact-form label{
+    
+    display: block;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 80%;
+    margin-bottom: 1em;
+}
+
+.input-form{
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 2px 5px; 
+    box-shadow: none;
+
+}
+
+.input-form:focus{
+    border: 2px solid #8c709b;
+}
+
+.form-btn{
+    font-size: 1.4em !important;
+    width: 120px !important;
+    height: 50px;
+    line-height: 22px;
+}
+
+.map{
+    margin-bottom: 3em;
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!! MEDIA QUERYS !!!!!!!!!!!!!!!!!!!!!*/
+
+
+/* Large devices (desktops, 992px and down)*/
+@media (max-width: 992px) {
+
+    .highlighted-button{
+        width: 100%;
+        border: none;
+        border: 2px solid #9f85ac;
+    }
+    
+    .presentation{
+        grid-template-columns: 1fr;
+    }
+
+    .services{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .welcome-btn{
+        width: 300px;
+        justify-self: center;
+        height: 67px;
+        margin-top: 35px;
+        vertical-align: middle;
+    }
+
+    .main-wrapper{
+        margin: 1.5em 4em;
+        margin-bottom: 3em;
+    }
+
+    .about-wrapper{
+        grid-template-columns: 1fr;
+    }
+
+    .txt-wrapper{
+        grid-column: 1 / -1;
+    }
+
+    .contacto-sociales{
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+        text-align: center;
+    }
+
+    .h1-title{
+        font-size: 50px;
+    }
+
+   
+
+
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media all and (max-width: 768px) { 
+
+    body{
+        font-size: 80%;
+    }
+
+    .hero{
+        height: 400px;
+    }
+
+    .hero-title{
+        font-size: 2em;
+        width: 80%;
+    }
+
+    .presentation{
+        grid-template-columns: 1fr;
+    }
+
+    .services{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .main-wrapper{
+        margin: 1.5em 2em;
+        margin-bottom: 2em;
+    }
+    
+    .about-wrapper{
+        grid-template-columns: 1fr;
+    }
+
+    /* .img-wrapper{
+        padding: 0;
+        justify-self: center;
+        margin-top: 20px;
+    } */
+
+    .h1-title{
+        font-size: 45px;
+    }
+
+    
+
+    .img-wrapper{
+        /* float: none; */
+        display: block;
+        margin: 10px auto 30px auto;
+        width: 100%;
+    }
+
+    .profile-img{
+        width: 90%;
+    }
+
+    .obras-sociales{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and down)*/
+@media all and (max-width: 580px) { 
+
+    body{
+        font-size: 70%;
+    }
+
+    .hero-title{
+        width: 90%;
+    }
+
+    .hero-btn{
+        height: 50px;
+        width: 145px;
+        font-size: 1.2em;
+    }
+
+    .presentation{
+        margin: 20px;
+    }
+
+    .welcome-btn{
+        width: 200px;
+        justify-self: center;
+        height: 45px;
+        margin-top: 30px;
+        vertical-align: middle;
+
+    }
+
+    .services{
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px repeat(6, 1fr);
+        padding: 20px;
+        grid-gap: 20px;
+    }
+
+    .services-title{
+        padding: 0;
+    }
+
+    .service-item{
+        width: 95%;
+        flex-direction: row;
+        justify-content: stretch;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .service-wrapper{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .service-img{
+        width: 80px;
+        height: 80px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .service-img-wrapper{
+        border-bottom: none;
+        margin: 0;
+        padding: 0;
+        padding-right: 20px;
+        border-right: 3px solid #9f85ac;
+    }
+
+    .service-title{
+        padding: 0;
+        padding-left: 15px;
+
+    }
+
+    .main-wrapper{
+        margin: 1.5em 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .about-wrapper{
+        grid-template-columns: 1fr;
+    }
+
+    .h1-title{
+        font-size: 40px;
+    }
+
+
+
+    .img-wrapper{
+        margin: 20px auto 30px auto;
+    }
+
+    .obras-sociales{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!! BLOG PAGE !!!!!!!!!!!!!!!!!!!! */
+
+.article-preview{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 30px;
+    margin-bottom: 80px;
+}
+
+.article-preview-data{
+    position: relative;
+}
+
+.article-preview-data a{
+    text-decoration: none;
+}
+
+.article-preview-img{
+    width: 100%;
+}
+
+.article-preview-title{
+    color: #8c709b;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.article-preview-author{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.article-preview-date{
+    font-size: .9rem;
+    color: rgba(0,0,0,.5);
+    margin-bottom: 15px;
+}
+
+.article-preview-text{
+    font-size: 1.3rem;
+
+}
+
+.article-read-more{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
